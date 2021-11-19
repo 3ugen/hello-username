@@ -1,6 +1,7 @@
 use near_sdk::{env, near_bindgen, PanicOnDefault};
 use near_sdk::borsh::{self, BorshDeserialize, BorshSerialize};
 use near_sdk::env::block_timestamp;
+use near_sdk::env::random_seed;
 // use rand::Rng;
 use serde::Serialize;
 
